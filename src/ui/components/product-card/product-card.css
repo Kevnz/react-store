@@ -1,0 +1,41 @@
+.card {
+  flex: 0 0 180px;
+  margin: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.card img.product {
+  max-width: 100%;
+  min-width: 100%;
+  width: 180px;
+  height: 130px;
+}
+
+.card .text {
+  padding: 0 20px 20px;
+}
+
+.card a {
+  background: gray;
+  border: 0;
+  color: white;
+  padding: 10px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card p {
+  min-height: 120px;
+}
+.card a svg {
+  vertical-align: top;
+  stroke: white;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
