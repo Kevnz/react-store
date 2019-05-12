@@ -47,6 +47,7 @@
     "mini-css-extract-plugin": "^0.6.0",
     "react-hot-loader": "^4.8.4",
     "react-testing-library": "^7.0.0",
+    "remove-console-plugin": "0.0.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",
