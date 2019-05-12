@@ -16,11 +16,7 @@ const ContactForm = () => {
               postData(values)
             }}
           >
-            <TextBox
-              name="userName"
-              label="Your Name"
-              initialValue=""
-            />
+            <TextBox name="userName" label="Your Name" initialValue="" />
             <TextBox
               type="email"
               name="userEmail"
