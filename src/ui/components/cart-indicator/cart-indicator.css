@@ -1,0 +1,17 @@
+.cartIndicator {
+  font-size: 0.9rem;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 15px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+.cartIndicator a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+.amount {
+  margin-left: 10px;
+  display: inline-block;
+}
