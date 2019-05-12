@@ -1,7 +1,7 @@
 import React from 'react'
 import { useGet } from '@brightleaf/react-hooks'
-import Loading from '../components/loading'
-import ProductCard from '../components/product-card'
+import Loading from '../../components/loading'
+import ProductCard from '../../components/product-card'
 import styles from './home.css'
 
 export default () => {
