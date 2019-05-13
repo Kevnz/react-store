@@ -1,0 +1,34 @@
+.list {
+  padding-top: 20px;
+  padding-left: 230px;
+}
+.lineItem {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.lineItem:hover {
+  background: #ccc;
+}
+.product {
+  width: 90px;
+  height: 65px;
+  display: inline-block;
+  padding-right: 15px;
+  vertical-align: middle;
+}
+.lineItem p {
+  min-height: 120px;
+  display: inline;
+}
+.lineItem svg {
+  stroke: white;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+.lineItem a {
+  text-decoration: none;
+  color: #2c3e50;
+}
