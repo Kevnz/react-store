@@ -1,0 +1,22 @@
+
+.loader {
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: #fff;
+  border-top-color: #61dafb;
+  border-left-color: #61dafb;
+  display: inline-block;
+  animation: loader 0.75s linear infinite;
+  margin: 0.5rem 0.5rem;
+  vertical-align: middle;
+
+}
+
+
+@keyframes loader {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
