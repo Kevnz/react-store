@@ -7,7 +7,7 @@ import '../index.css'
 const About = React.lazy(() => import('../features/about'))
 const Home = React.lazy(() => import('../features/home'))
 const Contact = React.lazy(() => import('../features/contact'))
-
+const Checkout = React.lazy(() => import('../features/cart'))
 export default function App() {
   return (
     <Container>
@@ -22,6 +22,7 @@ export default function App() {
             <Home path="/" />
             <About path="/about" />
             <Contact path="/contact" />
+            <Checkout path="/checkout" />
           </Router>
         </React.Suspense>
       </div>
