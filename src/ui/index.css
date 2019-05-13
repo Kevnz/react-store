@@ -3,9 +3,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #285966;
   border-top: 0.6rem solid #61dafb;
   padding: 0;
   margin: 0;
 }
 
+:global .primary-btn {
+  color: #fff;
+  background: #61dafb;
+  padding: 5px 15px;
+  margin: 4px 4px 4px 0;
+  border: #61dafb solid 1px;
+  border-radius: 2px;
+  font-size: 0.9rem;
+}
+
+:global .primary-btn:hover {
+  color: #fff;
+  background: #285966;
+}
