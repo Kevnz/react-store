@@ -1,0 +1,28 @@
+.checkout {
+  text-align: left;
+}
+
+.checkout-name,
+.checkout-card {
+  width: 180px;
+  margin-right: 10px;
+}
+
+.checkout-exp,
+.checkout-cvc {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.checkout-btn-cancel {
+  color: #fff;
+  background: #34495e;
+  padding: 5px 15px;
+  margin: 4px 4px 4px 0;
+  border: #34495e solid 1px;
+  border-radius: 2px;
+  font-size: 0.9rem;
+}
+.checkout-btn-cancel:hover {
+  background: #85919e;
+}
