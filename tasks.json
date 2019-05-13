@@ -3,7 +3,7 @@
   "lint": "npx eslint ./src",
   "build": [
     "npx webpack --config ./src/webpack/prod.config.js --mode production",
-    "npx build-storybook"
+    "npx build-storybook -o ./dist/storybook"
   ],
   "dev": [
     "npx webpack-dev-server --config ./src/webpack/dev.config.js --mode development"
