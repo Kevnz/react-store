@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react'
-import { Form, Button, Row, useFormElement } from 'react-form-elements'
+import { Form, Row, useFormElement } from 'react-form-elements'
+import Button from '../button'
 import styles from './creditcard-form.css'
 
 const Inputed = forwardRef(({ name, className, ...otherProps }, ref) => {
@@ -56,10 +57,8 @@ function CreditCardForm({ totalCost, onSubmit, onCancel }) {
           />
         </Row>
         <p>
-          <Button className={styles.primary}>Purchase</Button>
-          <Button className={styles.cancel} onClick={onCancel} type="button">
-            Cancel
-          </Button>
+          <Button type="primary">Purchase</Button>
+          <Button onClick={onCancel}>Cancel</Button>
         </p>
       </Form>
     </div>
