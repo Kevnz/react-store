@@ -1,0 +1,27 @@
+.primary {
+  color: #fff;
+  background: #61dafb;
+  padding: 5px 15px;
+  margin: 4px 4px 4px 0;
+  border: #61dafb solid 1px;
+  border-radius: 2px;
+  font-size: 0.9rem;
+}
+
+.primary:hover {
+  color: #fff;
+  background: #285966;
+}
+
+.default {
+  color: #fff;
+  background: #34495e;
+  padding: 5px 15px;
+  margin: 4px 4px 4px 0;
+  border: #34495e solid 1px;
+  border-radius: 2px;
+  font-size: 0.9rem;
+}
+.default:hover {
+  background: #85919e;
+}
