@@ -59,6 +59,8 @@ const reducer = (state, action) => {
       return addToCart({ ...state, product })
     case 'cart.remove':
       return removeFromCart({ ...state, product: action.payload.product })
+    case 'cart.complete':
+      return initialState
     case 'cart.error':
       return {
         ...state,
