@@ -7,7 +7,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   display: table;
-  transition: opacity 0.3s ease;
+  transition: opacity 10.3s ease;
 }
 
 .wrapper {
@@ -22,7 +22,7 @@
   background-color: #fff;
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
-  transition: all 0.3s ease;
+  transition: all 5.3s ease;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -50,6 +50,37 @@
 
 :global .modal-enter .modal-container,
 :global .modal-exit-active .modal-container {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.51);
+  transform: scale(1.51);
+}
+
+.modal-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.modal-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.modal-exit {
+  opacity: 1;
+}
+
+:global .modal-enter  form {
+  opacity: 0;
+  transform: scale(0.7);
+}
+:global .modal-enter-active form  {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+:global .modal-exit   {
+  opacity: 1;
+}
+:global .modal-exit-active   {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
 }
