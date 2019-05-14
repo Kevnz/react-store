@@ -6,6 +6,7 @@ import React, {
   useImperativeHandle,
 } from 'react'
 import { CSSTransition } from 'react-transition-group'
+import Button from '../button'
 import { ModalContainer, ModalContext } from './context'
 import styles from './modal.css'
 
@@ -37,8 +38,9 @@ export const InnerModal = forwardRef(
     }))
     return (
       <div>
-        <button
+        <Button
           className={buttonClass}
+          variation="primary"
           onClick={e => {
             dispatch({
               type: 'modal.show',
@@ -46,7 +48,7 @@ export const InnerModal = forwardRef(
           }}
         >
           {buttonText}
-        </button>
+        </Button>
         <CSSTransition in={show} timeout={300} classNames="modal" unmountOnExit>
           <div className={styles.mask}>
             <div className={styles.wrapper}>
