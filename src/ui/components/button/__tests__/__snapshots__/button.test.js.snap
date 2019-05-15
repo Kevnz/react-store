@@ -6,6 +6,11 @@ exports[`The Button component should render a button 1`] = `
     class="default"
   >
     Click Me
+    <canvas
+      height="0"
+      style="border-radius: inherit; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+      width="0"
+    />
   </button>
 </div>
 `;
@@ -15,5 +20,10 @@ exports[`The Button component should render a button 2`] = `
   class="default"
 >
   Click Me
+  <canvas
+    height="0"
+    style="border-radius: inherit; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+    width="0"
+  />
 </button>
 `;
