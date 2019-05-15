@@ -6,7 +6,7 @@ import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
 
 import Modal, { ModalContext } from '../src/ui/components/modal'
-
+import Button from '../src/ui/components/button'
 const Container = () => {
   const modalRef = useRef()
   return (
@@ -18,7 +18,14 @@ const Container = () => {
     >
       <div>
         <h2>Modal</h2>
-        <button onClick={() => modalRef.current.hide()}>Hide</button>
+        <Button
+          onClick={() => {
+            console.log('close it please')
+            modalRef.current.hide()
+          }}
+        >
+          Hide Me Please
+        </Button>
       </div>
     </Modal>
   )
