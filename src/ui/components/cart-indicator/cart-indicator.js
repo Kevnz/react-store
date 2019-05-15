@@ -6,7 +6,6 @@ import { CartContext } from '../../core/container'
 import styles from './cart-indicator.css'
 export default function CartIndicator() {
   const { totalItems } = useContext(CartContext)
-  console.info('cart value', totalItems)
   return (
     <div className={styles.cartIndicator}>
       <Link to="/checkout">
