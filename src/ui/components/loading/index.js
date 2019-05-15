@@ -1,4 +1,4 @@
 import Loading from './loading'
-
-export { Loading }
+import LoadingButton from './button'
+export { Loading, LoadingButton }
 export default Loading
