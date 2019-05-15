@@ -1,9 +1,31 @@
+@import '../../css/colors.css';
+/*
+#035AA6
+#5ED7F2
+#4494A6
+#262626
+#0D0D0D
+  --color-primary: #035AA6;
+  --color-second: #5ED7F2;
+  --color-middle: #4494A6;
+  --color-mid-dark: #262626;
+  --color-dark: #0D0D0D;
+*/
+/* Color Theme Swatches in Hex */
+.react-hex-dark-1-hex { color: #5ED7F2; }
+.react-hex-dark-2-hex { color: #366873; }
+.react-hex-dark-3-hex { color: #1D2526; }
+.react-hex-dark-4-hex { color: #027368; }
+.react-hex-dark-5-hex { color: #0D0D0D; }
+
+
+
 .primary {
   color: #fff;
-  background: #61dafb;
+  background: var(--color-primary);
   padding: 5px 15px;
   margin: 4px 4px 4px 0;
-  border: #61dafb solid 1px;
+  border: var(--color-primary) solid 1px;
   border-radius: 2px;
   font-size: 0.9rem;
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
@@ -16,10 +38,10 @@
 
 .default {
   color: #fff;
-  background: #34495e;
+  background: var(--color-middle);
   padding: 5px 15px;
   margin: 4px 4px 4px 0;
-  border: #34495e solid 1px;
+  border: var(--color-middle) solid 1px;
   border-radius: 2px;
   font-size: 0.9rem;
 }
