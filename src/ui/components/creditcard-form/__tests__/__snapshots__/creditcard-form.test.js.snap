@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Credit Card Form should handle a cancel 1`] = `
+<button
+  class="primary"
+>
+  Purchase
+</button>
+`;
+
+exports[`The Credit Card Form should handle a cancel 2`] = `
+<button
+  class="default"
+>
+  Cancel
+</button>
+`;
+
+exports[`The Credit Card Form should render 1`] = `
+<div>
+  <div
+    class="checkout"
+  >
+    <form
+      class="rfe-form"
+      name="ccform"
+    >
+      <div
+        class="checkout-header"
+      >
+        <h4
+          class="checkout-title"
+        >
+          Checkout
+          <span
+            class="checkout-price"
+          >
+            $
+          </span>
+        </h4>
+      </div>
+      <div
+        name="Row"
+      >
+        <input
+          class="name"
+          id="id-1-1"
+          name="nameOnCard"
+          placeholder="Your name"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          class="exp"
+          id="id-2-1"
+          name="mm"
+          placeholder="MM"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          class="exp"
+          id="id-3-1"
+          name="yy"
+          placeholder="YY"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <br />
+      <div
+        name="Row"
+      >
+        <input
+          class="card"
+          id="id-4-1"
+          name="card"
+          placeholder="4111 1111 1111 1111"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          class="cvc"
+          id="id-5-1"
+          name="cvc"
+          placeholder="CVC"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <p>
+        <button
+          class="primary"
+        >
+          Purchase
+        </button>
+        <button
+          class="default"
+        >
+          Cancel
+        </button>
+      </p>
+    </form>
+  </div>
+</div>
+`;
