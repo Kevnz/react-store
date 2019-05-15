@@ -2,7 +2,6 @@ import React, {
   useContext,
   forwardRef,
   useRef,
-  useState,
   useImperativeHandle,
 } from 'react'
 import { CSSTransition } from 'react-transition-group'
