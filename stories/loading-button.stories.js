@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react'
 
 import { action } from '@storybook/addon-actions'
 
-import LoadingButton from '../src/ui/components/loading/button'
+import { LoadingButton } from '../src/ui/components/loading'
 
 const LoadingBounce = () => {
   const [loading, setLoading] = useState(false)
