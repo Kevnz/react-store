@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Button component should render a button 1`] = `
+<div>
+  <button
+    class="default"
+  >
+    Click Me
+  </button>
+</div>
+`;
+
+exports[`The Button component should render a button 2`] = `
+<button
+  class="default"
+>
+  Click Me
+</button>
+`;
