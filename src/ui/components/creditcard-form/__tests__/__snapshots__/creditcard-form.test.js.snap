@@ -5,6 +5,11 @@ exports[`The Credit Card Form should handle a cancel 1`] = `
   class="primary"
 >
   Purchase
+  <canvas
+    height="0"
+    style="border-radius: inherit; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+    width="0"
+  />
 </button>
 `;
 
@@ -13,6 +18,11 @@ exports[`The Credit Card Form should handle a cancel 2`] = `
   class="default"
 >
   Cancel
+  <canvas
+    height="0"
+    style="border-radius: inherit; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+    width="0"
+  />
 </button>
 `;
 
@@ -98,11 +108,21 @@ exports[`The Credit Card Form should render 1`] = `
           class="primary"
         >
           Purchase
+          <canvas
+            height="0"
+            style="border-radius: inherit; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+            width="0"
+          />
         </button>
         <button
           class="default"
         >
           Cancel
+          <canvas
+            height="0"
+            style="border-radius: inherit; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;"
+            width="0"
+          />
         </button>
       </p>
     </form>
