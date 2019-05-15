@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../button'
-import Loading from './indicator'
+import Indicator from './indicator'
 
 export default function LoadingButton({
   loading,
@@ -8,7 +8,7 @@ export default function LoadingButton({
   variation = 'primary',
   children,
 }) {
-  const content = loading ? <Loading size="extra-small" /> : children
+  const content = loading ? <Indicator size="extra-small" /> : children
   return (
     <div>
       <Button disabled={loading} onClick={onClick} variation={variation}>

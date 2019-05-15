@@ -1,24 +1,38 @@
+@import '../../css/colors.css';
+/*
+  --color-primary: #035AA6;
+  --color-second: #5ED7F2;
+  --color-middle: #4494A6;
+  --color-mid-dark: #262626;
+  --color-dark: #0D0D0D;
+  --color-base: #2c3e50;
+*/
 
 .loader {
-  width: 3.25rem;
-  height: 3.25rem;
+  width: 2.75rem;
+  height: 2.75rem;
   border-radius: 50%;
   border-style: solid;
   border-width: 0.2rem;
   border-color: #fff;
-  border-top-color: #61dafb;
-  border-left-color: #61dafb;
+  border-top-color: var(--color-second);;
+  border-left-color: var(--color-second);;
   display: inline-block;
   animation: loader 0.75s linear infinite;
   margin: 0.5rem 0.5rem;
   vertical-align: middle;
-
 }
 
-.default {
-
+.extra-large {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-width: .15rem;
 }
-
+.large {
+  width: 3.25rem;
+  height: 3.25rem;
+  border-width: .15rem;
+}
 .medium {
   width: 2.25rem;
   height: 2.25rem;
@@ -32,8 +46,8 @@
 }
 
 .extra-small {
-  width: 0.9rem;
-  height: 0.9rem;
+  width: 0.75rem;
+  height: 0.75rem;
   border-width: .1rem;
 }
 
