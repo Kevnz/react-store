@@ -24,6 +24,7 @@
     "react-dom": "^16.8.6",
     "react-form-elements": "^2.4.1",
     "react-ink": "^6.4.0",
+    "react-spring": "^8.0.20",
     "react-transition-group": "^4.0.1"
   },
   "devDependencies": {
