@@ -57,7 +57,7 @@ function CreditCardForm({ totalCost, onSubmit, onCancel }) {
           />
         </Row>
         <p>
-          <Button type="primary">Purchase</Button>
+          <Button variation="primary">Purchase</Button>
           <Button onClick={onCancel}>Cancel</Button>
         </p>
       </Form>
