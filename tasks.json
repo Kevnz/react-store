@@ -1,7 +1,9 @@
 {
-  "test": "npx jest --config=jest.config.js --detectOpenHandles --forceExit --watch",
+  "test": "npx jest --config=jest.config.js --detectOpenHandles --forceExit",
+  "watch": "npx jest --config=jest.config.js --detectOpenHandles --forceExit --watch",
   "lint": "npx eslint ./src",
   "build": [
+    "npx jest --config=jest.config.js --detectOpenHandles --forceExit",
     "npx webpack --config ./src/webpack/prod.config.js --mode production",
     "npx build-storybook -o ./dist/storybook"
   ],
@@ -9,5 +11,11 @@
     "npx webpack-dev-server --config ./src/webpack/dev.config.js --mode development"
   ],
   "storybook": "npx start-storybook -p 6006",
-  "build-storybook": "npx build-storybook -o ./dist/storybook"
+  "build-storybook": "npx build-storybook -o ./dist/storybook",
+  "pree2e": [
+    "npx webpack --config ./src/webpack/prod.config.js --mode production"
+  ],
+  "serve": "node ./src/scripts/serve.js",
+  "λ": "npx cypress run",
+  "e2e": "npx cypress run --browser chrome --headless"
 }
