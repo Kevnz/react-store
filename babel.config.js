@@ -6,7 +6,19 @@ const plugins = [
 if (process.env.NODE_ENV === 'production') {
   plugins.push('transform-remove-console')
 }
+
 module.exports = {
   plugins,
-  presets: ['@babel/preset-env', '@babel/preset-react'],
+  presets: [
+    [
+      '@babel/preset-env',
+      {
+        targets: {
+          chrome: '52',
+          ie: '11',
+        },
+      },
+    ],
+    '@babel/preset-react',
+  ],
 }
