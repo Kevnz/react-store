@@ -16,6 +16,8 @@
     "npx webpack --config ./src/webpack/prod.config.js --mode production"
   ],
   "serve": "node ./src/scripts/serve.js",
+  "pre": "node ./src/scripts/serve.js",
   "λ": "npx cypress run",
-  "e2e": "npx cypress run --browser chrome --headless"
+  "e2e": "npx cypress run --browser chrome --headless",
+  "e2e:jest": "npx jest --config=jest.puppeteer.config.js --detectOpenHandles --forceExit"
 }
