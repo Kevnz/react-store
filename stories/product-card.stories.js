@@ -6,7 +6,7 @@ import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
 
 import ProductCard from '../src/ui/components/product-card'
-
+import Products from '../src/ui/components/products'
 const products = require('./data/products.json')
 
 const product = products[0]
@@ -16,6 +16,9 @@ storiesOf('ProductCard', module)
   ))
   .add('with another product', () => (
     <ProductCard {...products[2]} addToCart={action('add-to-cart')} />
+  ))
+  .add('with multiple products', () => (
+    <Products products={products} dispatch={action('add-product-to-cart')} />
   ))
   .add('in a small container', () => (
     <div style={{ width: 220, height: 200 }}>
