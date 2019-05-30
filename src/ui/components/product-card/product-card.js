@@ -3,6 +3,7 @@ import Ink from 'react-ink'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 import styles from './product-card.css'
+
 const ProductCard = ({
   id,
   name,
